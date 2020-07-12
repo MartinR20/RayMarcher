@@ -1,18 +1,30 @@
-#include "../Types/Types.h"
 #import <Cocoa/Cocoa.h>
 #import <Metal/Metal.h>
 #import <MetalKit/MetalKit.h>
 #include "unistd.h"
 #include "fcntl.h"
 
-// objective c doesn't like the s8 definition 
-#ifdef s8
-#undef s8 
-#define s8 signed char
-#endif
+// 
+// This is the main file of the project which will show the animated renderd Scene.
+// The other file is was just used to render a frame of the RayMarcher to a bitmap.
+//
 
-#define DEBUG 1
-#define RENDER_TO_TEXTURE 1
+#define u0  void
+
+#define s8  signed char
+#define s16 short
+#define s32 int
+#define s64 long
+
+#define u8  unsigned char
+#define u16 unsigned short
+#define u32 unsigned int
+#define u64 unsigned long
+
+#define f32 float
+#define f64 double
+
+#define DEBUG 0
 
 enum VertexAttributes {
     VertexAttributePosition = 0,

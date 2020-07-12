@@ -1,8 +1,26 @@
-#include "../Types/Types.h"
 #import <Metal/Metal.h>
 #import <MetalKit/MetalKit.h>
 #include "unistd.h"
 #include "fcntl.h"
+
+// 
+// This file was just created to render a frame to bitmap for display.
+//
+
+#define u0  void
+
+#define s8  char
+#define s16 short
+#define s32 int
+#define s64 long
+
+#define u8  unsigned char
+#define u16 unsigned short 
+#define u32 unsigned int
+#define u64 unsigned long
+
+#define f32 float
+#define f64 double
 
 #define DEBUG 1
 
