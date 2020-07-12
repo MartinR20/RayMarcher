@@ -1,6 +1,6 @@
 # Metal RayMarcher
 
-This repo is a implementation of a simple RayMarcher using Metal. 
+This repo is an implementation of a simple RayMarcher using Metal. 
 
 # Build
 
